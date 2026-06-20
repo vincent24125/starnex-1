@@ -1,0 +1,8 @@
+{
+  "name": "StarNex 赛车仪表系统",
+  "description": "高保真 800x480 赛车系统，具备预测性圈速分析、64区轮胎热力图及认知工程学 HMI 设计。",
+  "requestFramePermissions": [
+    "geolocation"
+  ],
+  "majorCapabilities": []
+}

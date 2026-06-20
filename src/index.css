@@ -1,0 +1,97 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "Montroc";
+  src: url("./assets/fonts/Montroc.otf") format("opentype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Montroc Condensed";
+  src: url("./assets/fonts/MontrocCondensed.otf") format("opentype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Montroc_Condensed";
+  src: url("./assets/fonts/MontrocCondensed.otf") format("opentype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Montroc Super-Italic";
+  src: url("./assets/fonts/MontrocSuperItalic.otf") format("opentype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Montroc_Super-Italic";
+  src: url("./assets/fonts/MontrocSuperItalic.otf") format("opentype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Sprintura Demo";
+  src: url("./assets/fonts/SprinturaDemo.otf") format("opentype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Sprintura_Demo";
+  src: url("./assets/fonts/SprinturaDemo.otf") format("opentype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Race Sport";
+  src: url("./assets/fonts/RaceSport.ttf") format("truetype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Race_Sport";
+  src: url("./assets/fonts/RaceSport.ttf") format("truetype");
+  font-display: swap;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+  display: none;
+  background: transparent;
+}
+
+@keyframes redlinePulse {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.55;
+  }
+}
+
+@keyframes redlineText {
+  0%,
+  100% {
+    filter: drop-shadow(0 0 8px rgba(189, 1, 0, 0.7));
+    transform: scale(1);
+  }
+  50% {
+    filter: drop-shadow(0 0 24px rgba(255, 0, 0, 0.9));
+    transform: scale(1.03);
+  }
+}
+
+.animate-redline-pulse {
+  animation: redlinePulse 0.3s ease-in-out infinite;
+}
+
+.animate-redline-text {
+  animation: redlineText 0.3s ease-in-out infinite;
+}
